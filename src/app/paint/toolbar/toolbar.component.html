@@ -9,7 +9,7 @@
       <img src="assets/toolbar-images/select.png" />
     </div>
     <div
-      title="Erase selected shape/text"
+      title="Erase shape/text on click"
       class="toolbox-item ml-1 mt-1"
       [ngClass]="{ selected: selected === 'ERASER' }"
       (click)="select(DrawingTools.ERASER)"
@@ -81,7 +81,7 @@
       <img src="assets/toolbar-images/fill.png" />
     </div>
     <div
-      title="Clear canvas, remove shapes"
+      title="Clear canvas, remove all shapes/texts"
       class="toolbox-item ml-1 mt-1"
       [ngClass]="{ selected: selected === 'GARBAGE' }"
       (click)="select(DrawingTools.GARBAGE)"
